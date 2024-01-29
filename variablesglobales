@@ -1,0 +1,18 @@
+#!/bin/bash
+#Imprimir variables globales
+echo "$SHELL"
+echo "$DISPLAY"
+echo "$HOME"
+echo "PATH"
+echo "MANPATH"
+echo "PS1"
+echo "PS2"
+echo "USER"
+echo "TERM"
+echo "PWD"
+
+#Imprimir todos los argumentos que se proporcionen
+echo "$@"
+
+#Imprimir el PID actual
+echo "$$"
